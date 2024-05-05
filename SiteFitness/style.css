@@ -1,0 +1,189 @@
+/*Общие для всего сайта*/
+*{
+	margin: 0%;
+	font-family: century gothic;
+	font-size: 20px;
+	color: black;
+}
+body{
+	background-image: url(img/perm/background.png);
+}
+.logo{
+	font-size: 35px;
+	font-weight: bold;
+}
+nav>button{
+	font-size: 25px;
+	width: 14%;
+	margin: 0.5%;
+	border-width: 0px;
+	vertical-align: middle;
+	background-color: rgba(142,219,232,0.5);
+}
+nav>button:hover{
+	background-color: rgba(142,219,232,1);
+	cursor: pointer;
+}
+.admin{
+	width: auto;
+	border-radius: 50%;
+	border-width: 2px;
+	border-color: rgba(142,219,232,1);
+}
+h1{
+	background-color: rgba(148,242,230,0.95);
+	text-align: center;
+	font-size: 35px;
+	font-weight: normal;
+	margin-bottom: 0.5%;
+}
+h2{
+	background-color: rgba(148,242,230,0.65);
+	text-align: center;
+	font-size: 25px;
+	font-weight: normal;
+	margin-bottom: 0.5%;
+}
+span{
+	font-weight: bold;
+}
+footer{
+	text-align: center;
+	border-top: 2px solid black;
+	margin-top: 0.5%;
+}
+footer>div{
+	display: inline-block;
+	vertical-align: middle;
+}
+img.footer{
+	height: 50px;
+	margin: 10px;
+}
+
+/*Сайдбар*/
+aside>p{
+	background-color: rgba(148,242,230,0.35);
+	margin: 2%;
+	padding: 2%;
+}
+aside>p:hover{
+	background-color: rgba(148,242,230,0.7);
+	cursor: pointer;
+}
+
+/*Главная*/
+.full{
+	width: 100%;
+}
+.part1{
+	display: inline-block;
+	width: 78.5%;
+	margin: 0.5%;
+	vertical-align: top;
+}
+.part2{
+	display: inline-block;
+	width: 18.5%;
+	margin: 0.5%;
+	vertical-align: top;
+}
+input{
+	margin: 0.2%;
+}
+.third{
+	width: 32%;
+}
+.big{
+	width: 98.25%;
+}
+.high{
+	height: 100px;
+}
+.button, button{
+	background-color: rgba(148,242,230,0.25);
+	border-width: 0px;
+}
+.button:hover, button:hover{
+	background-color: rgba(148,242,230,0.5);
+}
+
+/*Новости, одна новость*/
+.item{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0.5%;
+}
+.i5{
+	width: 18.5%;
+}
+.item>img{
+	margin: 0.5%;
+	width: 90%;
+}
+a.item:hover{
+	background-color: rgba(148,242,230,0.75);
+}
+.date{
+	text-align: right;
+	font-style: italic;
+	background-color: rgba(148,242,230,0.25);
+}
+.description{
+	margin: 0.5%;
+}
+.like{
+	height: 40px;
+	text-align: right;
+}
+
+/*Расписание, тарифы, акции*/
+table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+td{
+	border: 1px solid black;
+}
+thead{
+	font-weight: bold;
+}
+.noborder{
+	border: 0px;
+}
+.special{
+	font-weight: normal;
+	background-color: rgba(148,242,230,0.5);
+}
+
+/*Залы, один зал, тренеры, один тренер*/
+.i4{
+	width: 23%;
+}
+
+/*Контакты*/
+.contacts{
+	text-align: center;
+}
+
+/*Админ*/
+.bad{
+	background-color: rgba(255,0,0,0.5);
+}
+.mid{
+	background-color: rgba(255,255,0,0.5);
+}
+.good{
+	background-color: rgba(0,255,0,0.5);
+}
+.bad:hover{
+	background-color: rgba(255,0,0,1);
+}
+.mid:hover{
+	background-color: rgba(255,255,0,1);
+}
+.good:hover{
+	background-color: rgba(0,255,0,1);
+}
